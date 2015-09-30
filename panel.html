@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <style type="text/css">
+        tr.fixturemeta {
+            cursor: pointer;
+        }
+        table {
+            max-width: 100%;
+        }
+        table pre {
+            max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Network2Fixtures4u.com</h1>
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="urlRegex">URLs matching</label>
+                <input type="text" class="form-control" id="urlRegex" placeholder=".*">
+            </div>
+            <button type="button" id="updateRegex" class="btn btn-default">Update</button>
+        </div>
+        <p id="clear"><a href="#">Clear recordings</a></p>
+
+        <table class="table table-condensed table-hover" id="content"></table>
+    </div>
+
+    <script src="responseData.js"></script>
+    <script src="allResponseData.js"></script>
+    <script src="panel.js"></script>
+</body>
+</html>

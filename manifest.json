@@ -1,0 +1,12 @@
+{
+    "name": "Network2Fixtures",
+    "version": "0.1",
+    "description": "Convert network traffic to multimock fixtures",
+    "devtools_page": "devtools.html",
+    "permissions": [
+        "tabs", 
+        "http://*/*",
+        "https://*/*"
+    ],
+    "manifest_version": 2
+}
